@@ -7,7 +7,7 @@ To build a URL shortener backend microservice that allows users to generate shor
 
 
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
