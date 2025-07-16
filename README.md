@@ -62,13 +62,13 @@ To build a URL shortener backend microservice that allows users to generate shor
 - Checks for shortcode uniqueness.
 - Stores the long URL and expiry date in MongoDB.
 
-### 🔹 Redirect (`GET /:shortcode`)
+###  Redirect (`GET /:shortcode`)
 
 - Redirects to original URL.
 - Logs referrer and time if link is active.
 - Returns 410 if expired.
 
-### 🔹 Stats (`GET /shorturls/:shortcode`)
+###  Stats (`GET /shorturls/:shortcode`)
 
 - Returns JSON with:
   - original URL
@@ -78,9 +78,9 @@ To build a URL shortener backend microservice that allows users to generate shor
   - referrer & timestamp for each click
 
 
-## 🧪 Sample Input & Output
+##  Sample Input & Output
 
-### 🟢 POST `/shorturls`
+###  POST `/shorturls`
 
 #### Input
 
